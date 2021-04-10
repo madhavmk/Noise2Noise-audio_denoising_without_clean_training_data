@@ -3,9 +3,9 @@ Source code for the paper titled "Speech Denoising without Clean Training Data: 
 data, even when the circumstances are not ideal to allow it to be perfectly clean. We believe that this could significantly advance the prospects of speech denoising technologies for various lowresource languages, due to the decreased costs and barriers in data collection.
 
 # Research Paper and Citation
-The research paper is put up on Arxiv. See the link : https://arxiv.org/abs/2104.03838
+The research paper is put up on Arxiv. See the link : https://arxiv.org/abs/2104.03838. We have submitted the work to INTERSPEECH 2021(under review).
 
-If you would like to cite this work, please use the below Bibtex citation:
+If you would like to cite this work, please use the following Bibtex citation:
 
 @misc{kashyap2021speech,
       title={Speech Denoising without Clean Training Data: a Noise2Noise Approach}, 
