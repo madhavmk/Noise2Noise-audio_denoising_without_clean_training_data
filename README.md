@@ -66,15 +66,15 @@ In the 'speech_denoiser_DCUNet.ipynb' file. Select the weights .pth file for mod
 
 ## Example
 ### Noisy audio waveform
-![Screenshot](static/noisy_waveform.png)
+![./static/noisy_waveform.PNG](./static/noisy_waveform.PNG)
 ### Model denoised audio waveform
-![Screenshot](static/denoised_waveform.png)
+![static/denoised_waveform.PNG](static/denoised_waveform.PNG)
 ### True clean audio waveform
-![Screenshot](static/clean_waveform.png)
+![static/clean_waveform.PNG](static/clean_waveform.PNG)
 ## 20-Layered Deep Complex U-Net 20 Model Used
-![Screenshot](static/dcunet20.png)
+![static/dcunet20.PNG](static/dcunet20.PNG)
 ## Results
-![Screenshot](static/results.png)
+![static/results.PNG](static/results.PNG)
 
 ## Special thanks to the following open-source contributions:
 * https://github.com/pheepa/DCUnet
