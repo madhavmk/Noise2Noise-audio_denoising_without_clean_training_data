@@ -16,6 +16,11 @@ If you would like to cite this work, please use the following Bibtex citation:
       primaryClass={cs.SD}
 }
 
+## Python Requirements
+We recommend using Python 3.8.8. The package versions are in requirements.txt. We recommend using the Conda package manager to install dependencies.
+```
+conda create --name <env> --file requirements.txt
+```
 ## DataSet Generation
 We use 2 standard datasets; 'UrbanSound8K'(for real-world noise samples), and 'Voice Bank + DEMAND'(for speech samples). Please download the datasets from [urbansounddataset.weebly.com/urbansound8k.html](https://urbansounddataset.weebly.com/urbansound8k.html) and [datashare.ed.ac.uk/handle/10283/2791](https://datashare.ed.ac.uk/handle/10283/2791) respectively. Extract and organize into the Datasets folder as shown below:
 ```
