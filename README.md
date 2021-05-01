@@ -21,7 +21,7 @@ We recommend using Python 3.8.8. The package versions are in requirements.txt. W
 ```
 conda create --name <env> --file requirements.txt
 ```
-## DataSet Generation
+## Dataset Generation
 We use 2 standard datasets; 'UrbanSound8K'(for real-world noise samples), and 'Voice Bank + DEMAND'(for speech samples). Please download the datasets from [urbansounddataset.weebly.com/urbansound8k.html](https://urbansounddataset.weebly.com/urbansound8k.html) and [datashare.ed.ac.uk/handle/10283/2791](https://datashare.ed.ac.uk/handle/10283/2791) respectively. Extract and organize into the Datasets folder as shown below:
 ```
 Noise2Noise-audio_denoising_without_clean_training_data
@@ -81,7 +81,7 @@ In the 'speech_denoiser_DCUNet.ipynb' file. Select the weights .pth file for mod
 ## Results
 ![static/results.PNG](static/results.PNG)
 
-## Special thanks to the following open-source contributions:
+## Special thanks to the following repositories:
 * https://github.com/pheepa/DCUnet
 * https://github.com/ludlows/python-pesq
 * https://github.com/mpariente/pystoi
