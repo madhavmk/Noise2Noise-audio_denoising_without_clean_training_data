@@ -66,8 +66,10 @@ The train and test datasets for the specified noise will be generated in the 'Da
 ## Training a New Model
 In the 'speech_denoiser_DCUNet.ipynb' file. Specify the type of noise model you want to train to denoise(You have to generate the specific noise Dataset first). You can choose whether to train using our Noise2Noise approach(using noisy audio for both training inputs and targets), or the conventional approach(using noisy audio as training inputs and the clean audio as training target). If you are using Windows, set 'soundfile' as the torchaudio backend. If you are using Linux, set 'sox' as the torchaudio backend. The weights .pth file is saved for each training epoch in the 'Weights' directory.
 
-## Running Model Inference and Testing
-In the 'speech_denoiser_DCUNet.ipynb' file. Select the weights .pth file for model to use. Point to the testing folders containing the audio you want to denoise. Audio quality metrics will also be calculated.
+## Testing Model Inference on Pretrained Weights
+We have trained our model with both the Noise2Noise and Noise2Clean approaches, for all 10(numbered 0-9) UrbanSound noise classes and White Gaussian noise. All of our pre-trained model weights are uploaded in 'Pretrained_Weights' directory under the 'Noise2Noise' and 'Noise2Clean' subdirectories.
+
+In the 'speech_denoiser_DCUNet.ipynb' file. Select the weights .pth file for model to use. Point to the testing folders containing the audio you want to denoise. Audio quality metrics will also be calculated. The noisy, clean and denoised wav files will be saved in the 'Samples' directory.
 
 ## Example
 ### Noisy audio waveform
