@@ -48,7 +48,7 @@ python white_noise_dataset_generator.py
 
 To train a UrbanSound noise class denoising model, run the script, and select the noise class:
 ```
-python white_noise_dataset_generator.py
+python urban_sound_noise_dataset_generator.py
 
 0 : air_conditioner
 1 : car_horn
