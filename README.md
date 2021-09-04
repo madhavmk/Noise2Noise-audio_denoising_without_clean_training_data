@@ -1,19 +1,19 @@
 # Speech Denoising without Clean Training Data: a Noise2Noise Approach
-Source code for the paper titled "Speech Denoising without Clean Training Data: a Noise2Noise Approach". This paper removes the obstacle of heavy dependence of clean speech data required by deep learning based audio denoising methods, by showing that it is possible to train deep speech denoising networks using only noisy speech samples. Furthermore it is revealed that training regimes using only noisy audio targets achieve superior denoising performance over conventional training regimes utilizing clean training audio targets, in cases involving complex noise distributions and low Signal-to-Noise ratios (high noise environments). This is demonstrated through experiments studying the efficacy of our proposed approach over both real-world noises and synthetic noises using the 20 layered Deep Complex U-Net architecture. We aim to incentivise the collection of audio
+Source code for the Interspeech 2021 paper titled "Speech Denoising without Clean Training Data: a Noise2Noise Approach". This paper removes the obstacle of heavy dependence of clean speech data required by deep learning based audio denoising methods, by showing that it is possible to train deep speech denoising networks using only noisy speech samples. Furthermore it is revealed that training regimes using only noisy audio targets achieve superior denoising performance over conventional training regimes utilizing clean training audio targets, in cases involving complex noise distributions and low Signal-to-Noise ratios (high noise environments). This is demonstrated through experiments studying the efficacy of our proposed approach over both real-world noises and synthetic noises using the 20 layered Deep Complex U-Net architecture. We aim to incentivise the collection of audio
 data, even when the circumstances are not ideal to allow it to be perfectly clean. We believe that this could significantly advance the prospects of speech denoising technologies for various lowresource languages, due to the decreased costs and barriers in data collection.
 
 ## Research Paper and Citation
-Arxiv link to research paper: https://arxiv.org/abs/2104.03838. The paper has been accepted for presentation and publication at the INTERSPEECH 2021 conference!
+You can find the paper at the following link as part of the proceedings of Interspeech 2021: https://www.isca-speech.org/archive/interspeech_2021/kashyap21_interspeech.html . You can also view it on [Arxiv](https://arxiv.org/abs/2104.03838). 
 
 If you would like to cite this work, please use the following Bibtex citation:
 
-@misc{kashyap2021speech,
-      title={Speech Denoising without Clean Training Data: a Noise2Noise Approach},
-      author={Madhav Mahesh Kashyap and Anuj Tambwekar and Krishnamoorthy Manohara and S Natarajan},
-      year={2021},
-      eprint={2104.03838},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD}
+@inproceedings{kashyap21_interspeech,\
+  author={Madhav Mahesh Kashyap and Anuj Tambwekar and Krishnamoorthy Manohara and S. Natarajan},\
+  title={{Speech Denoising Without Clean Training Data: A Noise2Noise Approach}},\
+  year=2021,\
+  booktitle={Proc. Interspeech 2021},\
+  pages={2716--2720},\
+  doi={10.21437/Interspeech.2021-1130}\
 }
 
 ## Python Requirements
