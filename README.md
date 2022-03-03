@@ -21,6 +21,10 @@ We recommend using Python 3.8.8. The package versions are in requirements.txt. W
 ```
 conda create --name <env> --file requirements.txt
 ```
+If you get package errors creating the Conda environment, you can remove the packages from the requirement file and use pip install in the environment after its successful creation.
+
+To be able to install pesq and pypesq you will need Microsoft C++ Build Tools [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visualstudio.microsoft.com/visual-cpp-build-tools/), if you install Microsoft Visual Studio newer than 2019, it wouldn’t work.  
+
 ## Dataset Generation
 We use 2 standard datasets; 'UrbanSound8K'(for real-world noise samples), and 'Voice Bank + DEMAND'(for speech samples). Please download the datasets from [urbansounddataset.weebly.com/urbansound8k.html](https://urbansounddataset.weebly.com/urbansound8k.html) and [datashare.ed.ac.uk/handle/10283/2791](https://datashare.ed.ac.uk/handle/10283/2791) respectively. Extract and organize into the Datasets folder as shown below:
 ```
