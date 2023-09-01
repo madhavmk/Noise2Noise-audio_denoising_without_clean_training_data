@@ -1,0 +1,11 @@
+name: noise2noise-audio-denoising
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.11
+  - jupyterlab
+  - black
+  - black-jupyter
+prefix: C:\ProgramData\Miniconda3\envs\noise2noise-audio-denoising
